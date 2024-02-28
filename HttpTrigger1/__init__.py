@@ -44,7 +44,7 @@ def load_dataframe():
 loaded_model = load_model()
 df_merged = load_dataframe()
 
-# Préparation des données d'interaction (à ajuster en fonction de votre df_merged)
+# Préparation des données d'interaction 
 def prepare_interaction_data(df):
     interaction = df[['user_id', 'article_id', 'session_id']].groupby(by=['user_id', 'article_id'], as_index=False).agg('count')
     interaction.rename(columns={'session_id': 'rating'}, inplace=True)
