@@ -1,0 +1,9 @@
+name: my_streamlit_app
+channels:
+  - defaults
+dependencies:
+  - python=3.9
+  - requests=2.25.1
+  - streamlit
+  - pandas
+  - scikit-surprise
