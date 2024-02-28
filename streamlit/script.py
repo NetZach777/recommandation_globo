@@ -14,7 +14,7 @@ def call_azure_function(url, params):
         return None
 
 # Définition de l'URL de la fonction Azure
-azure_function_url = "https://recommandation-svd.azurewebsites.net/api/HttpTrigger1"
+azure_function_url = "https://azure-test-reco.azurewebsites.net/api/HttpTrigger1"
 
 # Page d'accueil Streamlit
 st.title("Test de la Fonction Azure de recommandation")
